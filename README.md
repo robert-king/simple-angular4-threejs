@@ -72,7 +72,7 @@ private cube : THREE.Mesh;
 
 ```ts
 this.scene.add(this.camera);
-this.scene.add(new THREE.AxisHelper(20));
+this.scene.add(new THREE.AxisHelper(20)); //AxesHelper ?
  
 this.camera.position.set(10,10,10);
 this.camera.lookAt(new THREE.Vector3(0,0,0));
